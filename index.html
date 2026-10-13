@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Analytics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-icon">SC</div>
+            <div>
+                <h2>Smart Campus</h2>
+                <p>Student Success Platform</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#dashboard" class="nav-link active">Dashboard</a>
+            <a href="#students" class="nav-link">Student Analytics</a>
+            <a href="#add-student" class="nav-link">Add Student</a>
+            <a href="#methodology" class="nav-link">Score Methodology</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <span class="status-dot"></span> Analytics System
+            <p>Prototype Version 1.0</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">SMART CAMPUS ANALYTICS</p>
+                <h1>Student Success Dashboard</h1>
+                <p class="subtitle">
+                    Monitor performance, identify risks and improve student outcomes.
+                </p>
+            </div>
+            <button id="exportBtn" class="btn btn-secondary" type="button">
+                Export CSV
+            </button>
+        </header>
+
+        <section id="dashboard">
+            <div class="section-heading">
+                <div>
+                    <h2>Overview</h2>
+                    <p>Current student performance at a glance</p>
+                </div>
+                <span class="live-label">● Live dashboard</span>
+            </div>
+
+            <div class="stats-grid">
+                <article class="stat-card">
+                    <p>Total Students</p>
+                    <h2 id="totalStudents">0</h2>
+                    <span>Students in the system</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>Average Success Score</p>
+                    <h2 id="averageScore">0%</h2>
+                    <span>Overall performance</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>High-Risk Students</p>
+                    <h2 id="highRiskStudents">0</h2>
+                    <span>Need immediate attention</span>
+                </article>
+
+                <article class="stat-card">
+                    <p>Average Attendance</p>
+                    <h2 id="averageAttendance">0%</h2>
+                    <span>Across all students</span>
+                </article>
+            </div>
+
+            <div class="charts-grid">
+                <article class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Student Risk Distribution</h3>
+                            <p>Students grouped by risk level</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="riskChart"></canvas>
+                    </div>
+                </article>
+
+                <article class="panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Department Success Scores</h3>
+                            <p>Average success score by department</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="departmentChart"></canvas>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="students" class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Student Analytics</h2>
+                    <p>Review individual performance and risk indicators</p>
+                </div>
+            </div>
+
+            <div class="filters">
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search name, roll number or department..."
+                    aria-label="Search students"
+                >
+
+                <select id="riskFilter" aria-label="Filter by risk">
+                    <option value="All">All risk levels</option>
+                    <option value="High">High risk</option>
+                    <option value="Medium">Medium risk</option>
+                    <option value="Low">Low risk</option>
+                </select>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student</th>
+                            <th>Department</th>
+                            <th>CGPA</th>
+                            <th>Attendance</th>
+                            <th>Success Score</th>
+                            <th>Risk Level</th>
+                            <th>Risk Insights</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTableBody"></tbody>
+                </table>
+            </div>
+            <p id="emptyMessage" class="empty-message" hidden>
+                No students match your search.
+            </p>
+        </section>
+
+        <section id="add-student" class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Add Student</h2>
+                    <p>Enter student data to update the dashboard and charts</p>
+                </div>
+            </div>
+
+            <form id="studentForm" class="form-panel">
+                <div class="form-grid">
+                    <label>
+                        Student Name
+                        <input name="name" type="text" required maxlength="80"
+                               placeholder="e.g. Rahul Kumar">
+                    </label>
+
+                    <label>
+                        Roll Number
+                        <input name="roll" type="text" required maxlength="30"
+                               placeholder="e.g. CSE001">
+                    </label>
+
+                    <label>
+                        Department
+                        <select name="department" required>
+                            <option value="CSE">CSE</option>
+                            <option value="IT">IT</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EEE">EEE</option>
+                            <option value="Mechanical">Mechanical</option>
+                            <option value="Civil">Civil</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        CGPA (0–10)
+                        <input name="cgpa" type="number" min="0" max="10"
+                               step="0.1" required value="7.0">
+                    </label>
+
+                    <label>
+                        Attendance (%)
+                        <input name="attendance" type="number" min="0" max="100"
+                               required value="80">
+                    </label>
+
+                    <label>
+                        LMS Completion (%)
+                        <input name="lms" type="number" min="0" max="100"
+                               required value="75">
+                    </label>
+
+                    <label>
+                        Engagement (%)
+                        <input name="engagement" type="number" min="0" max="100"
+                               required value="75">
+                    </label>
+
+                    <label>
+                        Placement Readiness (%)
+                        <input name="placement" type="number" min="0" max="100"
+                               required value="65">
+                    </label>
+
+                    <label>
+                        Skills Assessment (%)
+                        <input name="skills" type="number" min="0" max="100"
+                               required value="70">
+                    </label>
+
+                    <label>
+                        Feedback Score (%)
+                        <input name="feedback" type="number" min="0" max="100"
+                               required value="80">
+                    </label>
+
+                    <label>
+                        Number of Backlogs
+                        <input name="backlogs" type="number" min="0" max="30"
+                               required value="0">
+                    </label>
+
+                    <label>
+                        Aptitude Score (%)
+                        <input name="aptitude" type="number" min="0" max="100"
+                               required value="65">
+                    </label>
+
+                    <label>
+                        Coding Score (%)
+                        <input name="coding" type="number" min="0" max="100"
+                               required value="65">
+                    </label>
+                </div>
+
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="submit">
+                        Add Student
+                    </button>
+                    <button class="btn btn-secondary" type="reset">
+                        Reset Form
+                    </button>
+                </div>
+                <p id="formMessage" role="status"></p>
+            </form>
+        </section>
+
+        <section id="methodology" class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Score Methodology</h2>
+                    <p>Understand how the prototype calculates success scores and risk</p>
+                </div>
+            </div>
+
+            <article class="panel methodology-panel">
+                <h3>Student Success Score (0–100)</h3>
+                <p>
+                    The score is a weighted indicator of student progress.
+                    A higher score indicates stronger performance across the
+                    selected academic and engagement measures.
+                </p>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>Factor</th><th>Weight</th></tr>
+                        </thead>
+                        <tbody>
+                           <tr><td>Academic (CGPA 20, Backlogs 8, Subject marks 7)</td><td>35%</td></tr>
+                           <tr><td>Attendance (Overall 12, Weakest subject 8)</td><td>20%</td></tr>
+                           <tr><td>Engagement (LMS logins 6, Assignments 8, Clubs/events/certs 6)</td><td>20%</td></tr>
+                           <tr><td>Placement (Aptitude 5, Coding 5, Mock interviews 4, Technical 3, Soft skills 3)</td><td>20%</td></tr>
+                           <tr><td>Feedback (Student 3, Faculty 2)</td><td>5%</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>Risk rules used in this prototype</h3>
+                <ul>
+                   <li>Academic risk: CGPA below 6, attendance below 75%, 3 or more backlogs, or academic pillar below 45%.</li>
+                   <li>Placement risk: placement readiness pillar below 50%.</li>
+                   <li>High risk: score below 52, attendance below 65%, or both risk flags with a score below 60. Medium: score below 65. Low: everything else.</li>
+                </ul>
+
+                <p class="method-note">
+                    These are demonstration rules, not a validated predictive
+                    AI model. Use approved institutional data and validate
+                    the thresholds before real-world decisions.
+                </p>
+            </article>
+        </section>
+
+        <footer class="page-footer">
+            Smart Campus Analytics · Student Success Prototype
+        </footer>
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

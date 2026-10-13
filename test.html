@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Backend connection test</h2>
+  <p id="out">Loading...</p>
+  <script>
+    fetch("http://localhost:8000/summary")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("out").innerText =
+          "Connected! Total students: " + data.kpis.students +
+          " | High risk: " + data.kpis.high_risk;
+      })
+      .catch(err => {
+        document.getElementById("out").innerText = "Not connected: " + err;
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+student_id,name,department,year,cgpa,backlogs,subject_avg
+S1000,Student 0,mech ,4,7.61,1,82.2
+S1001,Student 1,IT,4,5.72,3,52.5
+S1002,Student 2,ECE,1,7.56,0,57.2
+S1003,Student 3,ECE,2,7.57,0,64.5
+S1004,Student 4,ECE,4,3.5,5,32.9
+S1005,Student 5,ECE,1,4.94,2,47.0
+S1006,Student 6,Computer Science,2,7.69,1,74.5
+S1007,Student 7,Computer Science,3,6.52,2,65.0
+S1008,Student 8,ECE,3,6.61,1,62.0
+S1009,Student 9,MECH,4,5.83,1,59.7
+S1010,Student 10,ECE,1,7.47,1,70.9
+S1011,Student 11,ece ,2,7.72,0,77.8
+S1012,Student 12,CIVIL,4,6.92,0,65.0
+S1013,Student 13,ECE,3,8.24,1,79.7
+S1014,Student 14,IT,1,7.65,1,69.2
+S1015,Student 15,CIVIL,2,5.79,1,50.1
+S1016,Student 16,Computer Science,2,7.48,2,77.6
+S1017,Student 17,ECE,3,5.35,3,48.8
+S1018,Student 18,Computer Science,2,8.21,0,80.2
+S1019,Student 19,ECE,3,7.22,3,68.5
+S1020,Student 20,ECE,2,6.27,2,53.0
+S1021,Student 21,Computer Science,3,5.65,2,50.3
+S1022,Student 22,Computer Science,1,8.79,0,89.2
+S1023,Student 23,MECH,3,6.54,2,62.2
+S1024,Student 24,CIVIL,4,6.66,2,53.9
+S1025,Student 25,ECE,1,6.21,2,54.9
+S1026,Student 26,IT,2,,0,83.1
+S1027,Student 27,ECE,3,7.31,1,65.8
+S1028,Student 28,IT,3,7.41,1,59.0
+S1029,Student 29,ECE,3,7.83,0,82.9
+S1030,Student 30,MECH,3,9.48,0,89.7
+S1031,Student 31,CIVIL,3,5.99,2,53.0
+S1032,Student 32,Computer Science,3,6.0,0,52.2
+S1033,Student 33,IT,1,5.88,2,59.5
+S1034,Student 34,ECE,4,7.13,0,60.4
+S1035,Student 35,MECH,2,8.46,1,83.8
+S1036,Student 36,CIVIL,1,6.49,1,61.2
+S1037,Student 37,CIVIL,2,6.05,3,57.7
+S1038,Student 38,Computer Science,2,5.01,2,43.3
+S1039,Student 39,it ,1,7.41,1,65.8
+S1040,Student 40,CIVIL,4,7.26,1,69.4
+S1041,Student 41,IT,1,7.26,0,60.9
+S1042,Student 42,MECH,2,6.01,3,46.9
+S1043,Student 43,CIVIL,2,7.05,0,67.1
+S1044,Student 44,MECH,4,6.88,1,65.5
+S1045,Student 45,IT,3,7.04,2,66.4
+S1046,Student 46,IT,4,7.99,1,75.3
+S1047,Student 47,IT,1,6.79,2,59.0
+S1048,Student 48,MECH,4,7.89,0,76.9
+S1049,Student 49,CIVIL,4,7.09,0,65.2
+S1050,Student 50,ECE,2,7.29,0,64.6
+S1051,Student 51,MECH,3,7.79,1,70.2
+S1052,Student 52,CIVIL,1,4.99,3,55.8
+S1053,Student 53,Computer Science,4,6.99,2,57.6
+S1054,Student 54,CIVIL,4,6.16,1,58.5
+S1055,Student 55,Computer Science,2,5.88,3,44.7
+S1056,Student 56,MECH,3,6.22,1,55.1
+S1057,Student 57,mech ,2,8.43,0,73.6
+S1058,Student 58,MECH,1,5.3,4,36.2
+S1059,Student 59,MECH,3,7.79,0,72.0
+S1060,Student 60,MECH,3,4.59,4,39.6
+S1061,Student 61,MECH,4,6.46,1,48.8
+S1062,Student 62,MECH,4,7.03,0,68.4
+S1063,Student 63,MECH,2,7.33,0,73.1
+S1064,Student 64,CIVIL,4,7.99,0,81.6
+S1065,Student 65,MECH,3,8.05,0,76.3
+S1066,Student 66,CIVIL,3,6.3,3,57.4
+S1067,Student 67,IT,3,6.0,2,60.5
+S1068,Student 68,IT,4,8.08,1,82.9
+S1069,Student 69,Computer Science,3,6.61,1,66.1
+S1070,Student 70,CIVIL,1,4.71,2,36.2
+S1071,Student 71,ECE,1,5.31,3,49.1
+S1072,Student 72,cse ,2,5.68,2,54.2
+S1073,Student 73,CIVIL,3,7.18,1,55.3
+S1074,Student 74,Computer Science,3,7.04,1,66.8
+S1075,Student 75,IT,2,7.26,0,75.8
+S1076,Student 76,CIVIL,3,6.65,1,65.4
+S1077,Student 77,IT,4,7.38,0,76.3
+S1078,Student 78,CIVIL,2,7.54,0,69.4
+S1079,Student 79,IT,2,6.51,2,59.4
+S1080,Student 80,Computer Science,3,6.67,0,59.7
+S1081,Student 81,IT,2,5.59,2,45.4
+S1082,Student 82,Computer Science,4,6.24,2,51.6
+S1083,Student 83,ECE,4,5.98,0,59.5
+S1084,Student 84,cse ,3,5.46,2,57.4
+S1085,Student 85,MECH,2,8.03,1,70.9
+S1086,Student 86,CIVIL,3,5.84,2,56.5
+S1087,Student 87,ECE,1,6.57,0,58.4
+S1088,Student 88,IT,2,7.5,1,70.4
+S1089,Student 89,CIVIL,1,7.86,2,76.1
+S1090,Student 90,CIVIL,1,7.3,1,70.1
+S1091,Student 91,IT,1,6.75,1,62.2
+S1092,Student 92,MECH,3,6.8,1,71.3
+S1093,Student 93,ECE,1,6.2,1,56.0
+S1094,Student 94,IT,3,4.22,3,39.7
+S1095,Student 95,MECH,2,4.79,3,38.8
+S1096,Student 96,CIVIL,2,4.92,3,54.8
+S1097,Student 97,ECE,4,5.75,2,55.6
+S1098,Student 98,ECE,3,7.39,1,71.3
+S1099,Student 99,Computer Science,3,5.09,2,36.0
+S1100,Student 100,ece ,3,6.46,2,55.4
+S1101,Student 101,Computer Science,1,8.32,0,81.5
+S1102,Student 102,CIVIL,1,6.72,1,64.3
+S1103,Student 103,Computer Science,3,7.57,0,58.8
+S1104,Student 104,civil ,4,5.4,3,53.4
+S1105,Student 105,IT,1,6.7,2,59.0
+S1106,Student 106,CIVIL,1,5.79,1,60.7
+S1107,Student 107,MECH,4,6.49,1,59.3
+S1108,Student 108,Computer Science,4,7.39,1,66.4
+S1109,Student 109,IT,1,4.72,3,49.3
+S1110,Student 110,Computer Science,2,7.05,0,58.6
+S1111,Student 111,CIVIL,3,7.18,2,60.8
+S1112,Student 112,CIVIL,1,5.6,1,48.2
+S1113,Student 113,Computer Science,2,5.05,2,50.6
+S1114,Student 114,CIVIL,2,6.65,1,53.0
+S1115,Student 115,Computer Science,3,5.73,2,42.2
+S1116,Student 116,ece ,2,7.32,1,71.8
+S1117,Student 117,IT,2,6.9,2,60.2
+S1118,Student 118,IT,2,8.7,0,76.8
+S1119,Student 119,ECE,4,6.92,2,55.6
+S1120,Student 120,IT,1,5.34,2,44.6
+S1121,Student 121,IT,1,7.04,1,64.2
+S1122,Student 122,CIVIL,1,7.17,1,70.4
+S1123,Student 123,Computer Science,4,8.38,0,72.0
+S1124,Student 124,ECE,4,8.03,1,82.2
+S1125,Student 125,CIVIL,3,7.1,1,60.7
+S1126,Student 126,IT,1,8.58,0,74.5
+S1127,Student 127,IT,4,5.66,2,60.9
+S1128,Student 128,MECH,2,5.66,2,51.2
+S1129,Student 129,ECE,4,4.87,2,38.5
+S1130,Student 130,IT,2,6.78,2,63.0
+S1131,Student 131,ECE,4,5.78,4,62.4
+S1132,Student 132,ECE,4,7.5,0,75.3
+S1133,Student 133,IT,1,5.93,2,47.5
+S1134,Student 134,MECH,3,4.79,4,42.9
+S1135,Student 135,ece ,2,5.39,2,49.1
+S1136,Student 136,cse ,2,7.15,3,60.1
+S1137,Student 137,MECH,2,7.56,0,67.3
+S1138,Student 138,IT,3,9.57,0,88.3
+S1139,Student 139,MECH,2,10.0,0,100.0
+S1140,Student 140,CIVIL,3,6.89,0,67.0
+S1141,Student 141,ECE,3,5.72,2,51.3
+S1142,Student 142,CIVIL,4,4.64,4,43.6
+S1143,Student 143,CIVIL,4,7.2,1,69.2
+S1144,Student 144,CIVIL,1,5.64,3,48.0
+S1145,Student 145,CIVIL,4,6.22,2,59.4
+S1146,Student 146,MECH,1,6.19,2,56.7
+S1147,Student 147,ECE,3,6.1,4,48.5
+S1148,Student 148,CIVIL,2,8.24,0,70.7
+S1149,Student 149,IT,3,6.89,0,69.6
+S1150,Student 150,IT,3,7.15,1,66.7
+S1151,Student 151,ECE,4,5.4,2,57.1
+S1152,Student 152,CIVIL,2,5.12,4,46.0
+S1153,Student 153,Computer Science,4,5.84,1,53.2
+S1154,Student 154,MECH,2,,1,75.7
+S1155,Student 155,MECH,1,9.19,0,79.2
+S1156,Student 156,ECE,2,6.71,2,50.6
+S1157,Student 157,IT,3,8.13,0,80.9
+S1158,Student 158,it ,3,6.51,1,56.7
+S1159,Student 159,Computer Science,4,5.16,3,46.4
+S1160,Student 160,ECE,1,5.04,3,40.7
+S1161,Student 161,ECE,2,5.85,2,54.6
+S1162,Student 162,IT,4,9.3,0,79.2
+S1163,Student 163,MECH,2,5.63,3,49.9
+S1164,Student 164,CIVIL,1,7.87,0,74.0
+S1165,Student 165,IT,4,5.11,2,39.3
+S1166,Student 166,CIVIL,2,7.53,0,63.2
+S1167,Student 167,cse ,4,7.45,2,66.8
+S1168,Student 168,Computer Science,4,6.44,2,50.9
+S1169,Student 169,ECE,4,5.98,2,49.1
+S1170,Student 170,ECE,3,6.18,3,57.9
+S1171,Student 171,CIVIL,4,7.46,3,66.4
+S1172,Student 172,Computer Science,4,5.99,0,52.3
+S1173,Student 173,ECE,2,4.81,2,41.9
+S1174,Student 174,ece ,1,5.39,2,46.7
+S1175,Student 175,Computer Science,2,7.13,0,68.9
+S1176,Student 176,cse ,3,9.57,0,97.7
+S1177,Student 177,Computer Science,3,7.13,1,63.3
+S1178,Student 178,MECH,1,6.76,0,64.6
+S1179,Student 179,MECH,3,7.12,1,63.6
+S1180,Student 180,MECH,1,8.74,0,82.8
+S1181,Student 181,MECH,3,7.27,1,75.0
+S1182,Student 182,CIVIL,3,6.64,2,64.6
+S1183,Student 183,IT,3,8.08,0,64.3
+S1184,Student 184,MECH,2,7.23,0,67.7
+S1185,Student 185,CIVIL,2,8.65,1,84.7
+S1186,Student 186,CIVIL,3,7.28,1,66.3
+S1187,Student 187,CIVIL,3,5.66,1,58.3
+S1188,Student 188,cse ,4,4.88,2,40.3
+S1189,Student 189,IT,2,8.82,0,72.7
+S1190,Student 190,Computer Science,2,9.13,0,84.6
+S1191,Student 191,MECH,2,6.49,1,50.1
+S1192,Student 192,CIVIL,3,6.59,1,60.0
+S1193,Student 193,MECH,1,8.02,1,77.0
+S1194,Student 194,ECE,2,5.11,3,35.9
+S1195,Student 195,IT,1,5.4,3,41.7
+S1196,Student 196,Computer Science,3,6.94,0,55.3
+S1197,Student 197,ECE,4,6.0,1,53.1
+S1198,Student 198,IT,4,6.52,1,56.4
+S1199,Student 199,CIVIL,2,6.53,2,66.2
+S1200,Student 200,Computer Science,1,7.57,0,75.3
+S1201,Student 201,CIVIL,1,8.56,0,80.4
+S1202,Student 202,IT,1,6.61,1,59.7
+S1203,Student 203,Computer Science,4,7.62,0,71.5
+S1204,Student 204,MECH,4,4.45,3,37.3
+S1205,Student 205,MECH,3,6.44,1,61.8
+S1206,Student 206,Computer Science,1,5.43,2,42.7
+S1207,Student 207,ECE,1,5.38,3,53.8
+S1208,Student 208,Computer Science,4,5.59,3,56.5
+S1209,Student 209,Computer Science,2,6.56,2,61.6
+S1210,Student 210,MECH,1,7.99,0,72.1
+S1211,Student 211,MECH,1,5.29,2,50.9
+S1212,Student 212,ECE,2,6.53,2,43.9
+S1213,Student 213,ECE,3,6.17,2,57.7
+S1214,Student 214,Computer Science,4,6.31,1,56.7
+S1215,Student 215,CIVIL,2,7.74,1,68.9
+S1216,Student 216,ECE,3,7.03,1,65.7
+S1217,Student 217,IT,1,8.74,1,80.4
+S1218,Student 218,MECH,1,6.49,3,53.0
+S1219,Student 219,IT,1,5.59,1,48.9
+S1220,Student 220,CIVIL,4,6.48,1,59.3
+S1221,Student 221,ECE,3,7.45,1,70.0
+S1222,Student 222,CIVIL,4,6.35,1,55.8
+S1223,Student 223,ECE,1,4.94,2,48.2
+S1224,Student 224,Computer Science,1,6.64,0,54.0
+S1225,Student 225,ECE,4,7.54,1,71.5
+S1226,Student 226,ECE,1,10.0,0,99.8
+S1227,Student 227,Computer Science,1,9.47,0,78.9
+S1228,Student 228,Computer Science,3,5.35,2,48.1
+S1229,Student 229,IT,3,6.09,1,51.1
+S1230,Student 230,MECH,1,5.03,3,44.4
+S1231,Student 231,MECH,2,6.05,2,50.6
+S1232,Student 232,IT,3,7.37,1,67.1
+S1233,Student 233,ECE,2,8.31,2,84.9
+S1234,Student 234,MECH,2,5.94,2,48.0
+S1235,Student 235,IT,1,6.0,2,48.9
+S1236,Student 236,CIVIL,2,4.24,3,32.8
+S1237,Student 237,ECE,4,6.83,0,71.9
+S1238,Student 238,ECE,3,4.93,4,40.5
+S1239,Student 239,Computer Science,4,5.44,1,46.5
+S1240,Student 240,Computer Science,1,5.96,1,53.5
+S1241,Student 241,Computer Science,1,7.03,1,60.9
+S1242,Student 242,CIVIL,3,4.21,3,35.6
+S1243,Student 243,CIVIL,1,4.33,2,49.2
+S1244,Student 244,MECH,3,9.6,0,94.9
+S1245,Student 245,CIVIL,4,5.41,4,46.0
+S1246,Student 246,Computer Science,2,5.91,2,59.3
+S1247,Student 247,ECE,3,9.34,0,82.0
+S1248,Student 248,ECE,3,10.0,0,86.5
+S1249,Student 249,IT,1,5.01,3,49.5
+S1250,Student 250,CIVIL,4,6.32,1,63.4
+S1251,Student 251,IT,1,7.15,0,70.1
+S1252,Student 252,ECE,4,8.74,0,76.3
+S1253,Student 253,IT,3,6.13,2,57.5
+S1254,Student 254,Computer Science,1,7.02,2,69.9
+S1255,Student 255,ECE,3,8.15,0,77.8
+S1256,Student 256,MECH,1,7.09,1,61.6
+S1257,Student 257,Computer Science,3,6.57,2,52.8
+S1258,Student 258,IT,4,6.82,0,63.5
+S1259,Student 259,IT,4,5.15,4,52.7
+S1260,Student 260,MECH,4,6.87,1,58.2
+S1261,Student 261,ECE,2,6.64,2,64.5
+S1262,Student 262,Computer Science,3,7.32,1,69.4
+S1263,Student 263,CIVIL,2,6.27,3,61.6
+S1264,Student 264,MECH,4,7.52,1,73.4
+S1265,Student 265,CIVIL,2,7.58,0,63.5
+S1266,Student 266,CIVIL,4,7.03,0,56.1
+S1267,Student 267,Computer Science,2,7.09,1,61.3
+S1268,Student 268,Computer Science,3,6.49,1,62.0
+S1269,Student 269,CIVIL,1,7.3,2,66.0
+S1270,Student 270,cse ,3,6.38,3,56.8
+S1271,Student 271,IT,1,,1,62.1
+S1272,Student 272,Computer Science,1,6.75,1,70.6
+S1273,Student 273,CIVIL,2,9.93,0,96.6
+S1274,Student 274,IT,2,8.85,0,84.8
+S1275,Student 275,MECH,3,,1,72.3
+S1276,Student 276,Computer Science,2,5.48,1,51.4
+S1277,Student 277,IT,1,5.47,3,49.0
+S1278,Student 278,Computer Science,2,8.37,1,75.7
+S1279,Student 279,MECH,2,6.75,1,57.8
+S1280,Student 280,IT,3,7.41,0,80.7
+S1281,Student 281,CIVIL,3,4.51,2,43.5
+S1282,Student 282,Computer Science,1,8.54,2,78.0
+S1283,Student 283,IT,3,7.66,0,73.4
+S1284,Student 284,Computer Science,3,5.36,1,43.7
+S1285,Student 285,CIVIL,4,6.26,3,64.9
+S1286,Student 286,CIVIL,3,7.16,1,62.0
+S1287,Student 287,ECE,4,6.81,2,64.3
+S1288,Student 288,MECH,1,6.1,2,59.5
+S1289,Student 289,Computer Science,3,6.62,2,62.1
+S1290,Student 290,IT,1,6.25,2,56.5
+S1291,Student 291,ECE,1,6.62,2,58.9
+S1292,Student 292,ECE,4,8.87,1,81.4
+S1293,Student 293,MECH,2,3.58,5,29.9
+S1294,Student 294,CIVIL,3,5.96,0,49.8
+S1295,Student 295,mech ,3,6.99,1,71.0
+S1296,Student 296,MECH,3,7.48,2,69.0
+S1297,Student 297,MECH,1,6.63,3,57.8
+S1298,Student 298,IT,1,4.82,3,42.4
+S1299,Student 299,ECE,1,7.24,2,71.6
+S1300,Student 300,IT,4,8.79,0,82.7
+S1301,Student 301,CIVIL,1,4.48,5,42.1
+S1302,Student 302,IT,3,8.03,0,72.5
+S1303,Student 303,IT,2,6.49,1,62.4
+S1304,Student 304,CIVIL,1,7.11,1,63.2
+S1305,Student 305,ECE,2,5.76,2,52.5
+S1306,Student 306,CIVIL,1,6.33,1,62.3
+S1307,Student 307,CIVIL,1,8.12,0,77.0
+S1308,Student 308,ECE,1,7.46,0,62.8
+S1309,Student 309,CIVIL,4,9.12,0,79.4
+S1310,Student 310,ECE,3,8.27,0,75.9
+S1311,Student 311,MECH,4,7.2,2,73.6
+S1312,Student 312,CIVIL,2,9.14,0,74.4
+S1313,Student 313,Computer Science,1,7.22,2,66.6
+S1314,Student 314,ECE,3,7.69,0,62.5
+S1315,Student 315,CIVIL,4,6.51,2,56.5
+S1316,Student 316,MECH,3,6.77,1,59.4
+S1317,Student 317,IT,1,5.97,3,52.5
+S1318,Student 318,Computer Science,2,8.17,0,72.3
+S1319,Student 319,CIVIL,4,4.93,3,43.3
+S1320,Student 320,IT,3,7.67,1,66.8
+S1321,Student 321,IT,4,6.98,1,58.2
+S1322,Student 322,Computer Science,3,7.97,0,75.3
+S1323,Student 323,IT,1,7.14,2,66.3
+S1324,Student 324,ECE,4,8.61,0,80.6
+S1325,Student 325,ECE,4,7.76,1,63.2
+S1326,Student 326,ECE,3,4.77,4,44.8
+S1327,Student 327,CIVIL,4,6.68,2,64.1
+S1328,Student 328,civil ,1,5.64,2,47.6
+S1329,Student 329,MECH,4,5.32,0,45.1
+S1330,Student 330,Computer Science,1,8.88,0,81.1
+S1331,Student 331,IT,4,8.1,0,85.1
+S1332,Student 332,ECE,1,5.55,3,58.7
+S1333,Student 333,Computer Science,3,5.37,2,40.0
+S1334,Student 334,MECH,4,6.62,2,71.9
+S1335,Student 335,MECH,1,4.95,2,39.2
+S1336,Student 336,CIVIL,1,5.83,1,57.5
+S1337,Student 337,IT,4,7.63,1,76.3
+S1338,Student 338,Computer Science,1,8.85,0,78.2
+S1339,Student 339,ECE,3,7.49,0,70.4
+S1340,Student 340,MECH,4,4.39,4,41.6
+S1341,Student 341,CIVIL,3,7.21,3,68.6
+S1342,Student 342,CIVIL,2,7.42,2,71.0
+S1343,Student 343,ECE,2,7.31,2,72.6
+S1344,Student 344,CIVIL,3,8.94,0,82.3
+S1345,Student 345,it ,3,4.23,5,37.9
+S1346,Student 346,MECH,3,6.99,2,73.1
+S1347,Student 347,IT,1,7.82,0,75.4
+S1348,Student 348,CIVIL,3,4.53,3,43.9
+S1349,Student 349,ECE,3,9.01,0,80.3
+S1350,Student 350,ECE,3,7.17,0,59.7
+S1351,Student 351,CIVIL,1,7.75,0,67.4
+S1352,Student 352,ECE,3,6.33,1,55.7
+S1353,Student 353,ECE,3,7.87,2,75.8
+S1354,Student 354,ECE,1,8.27,1,80.8
+S1355,Student 355,CIVIL,4,7.11,1,64.1
+S1356,Student 356,ECE,3,7.21,1,73.3
+S1357,Student 357,CIVIL,2,7.28,1,73.8
+S1358,Student 358,IT,3,5.1,2,45.1
+S1359,Student 359,IT,3,6.81,0,58.8
+S1360,Student 360,IT,3,6.31,0,64.1
+S1361,Student 361,Computer Science,2,6.87,1,60.5
+S1362,Student 362,MECH,4,8.08,0,74.4
+S1363,Student 363,ece ,4,5.45,3,47.9
+S1364,Student 364,IT,1,6.43,3,53.3
+S1365,Student 365,civil ,3,8.98,1,75.8
+S1366,Student 366,ECE,1,5.43,1,50.9
+S1367,Student 367,MECH,2,5.61,2,46.6
+S1368,Student 368,CIVIL,4,6.89,1,77.4
+S1369,Student 369,MECH,1,7.88,2,66.5
+S1370,Student 370,mech ,2,,2,57.0
+S1371,Student 371,Computer Science,1,8.23,1,76.5
+S1372,Student 372,MECH,3,8.13,0,82.8
+S1373,Student 373,ECE,2,7.91,0,72.7
+S1374,Student 374,IT,3,6.95,1,63.9
+S1375,Student 375,IT,4,9.24,0,72.9
+S1376,Student 376,CIVIL,3,6.53,1,56.1
+S1377,Student 377,Computer Science,3,4.13,3,31.7
+S1378,Student 378,IT,1,8.85,1,71.4
+S1379,Student 379,ECE,1,6.2,1,57.0
+S1380,Student 380,MECH,4,7.01,0,53.0
+S1381,Student 381,IT,4,8.79,0,74.9
+S1382,Student 382,IT,3,4.38,2,35.6
+S1383,Student 383,Computer Science,2,4.82,3,38.1
+S1384,Student 384,ECE,1,4.39,3,40.4
+S1385,Student 385,CIVIL,4,5.85,2,55.2
+S1386,Student 386,MECH,4,7.75,1,76.7
+S1387,Student 387,ECE,1,7.35,0,70.3
+S1388,Student 388,MECH,3,6.41,0,61.0
+S1389,Student 389,IT,3,4.45,3,38.2
+S1390,Student 390,ECE,2,3.55,3,32.5
+S1391,Student 391,CIVIL,4,6.7,0,63.0
+S1392,Student 392,civil ,1,6.06,2,55.4
+S1393,Student 393,IT,2,7.41,2,65.7
+S1394,Student 394,ECE,1,7.62,0,67.5
+S1395,Student 395,ECE,3,7.29,0,63.8
+S1396,Student 396,MECH,3,7.59,1,70.5
+S1397,Student 397,mech ,4,6.84,0,60.8
+S1398,Student 398,MECH,3,7.63,1,67.0
+S1399,Student 399,CIVIL,1,5.42,1,44.1
+S1400,Student 400,CIVIL,2,6.68,0,55.4
+S1401,Student 401,ECE,1,7.09,1,69.7
+S1402,Student 402,CIVIL,3,7.82,0,71.6
+S1403,Student 403,ECE,3,6.76,1,59.3
+S1404,Student 404,MECH,4,7.29,1,69.8
+S1405,Student 405,Computer Science,2,7.07,1,64.2
+S1406,Student 406,ECE,2,6.58,2,52.7
+S1407,Student 407,IT,1,7.5,1,72.0
+S1408,Student 408,MECH,2,4.23,3,35.7
+S1409,Student 409,CIVIL,2,4.79,2,40.1
+S1410,Student 410,Computer Science,4,4.65,2,41.4
+S1411,Student 411,CIVIL,4,,4,41.3
+S1412,Student 412,ece ,1,6.08,2,56.2
+S1413,Student 413,CIVIL,2,7.59,0,62.5
+S1414,Student 414,IT,3,6.73,1,65.3
+S1415,Student 415,MECH,2,7.4,0,66.6
+S1416,Student 416,cse ,1,8.65,1,90.3
+S1417,Student 417,MECH,4,8.68,0,80.0
+S1418,Student 418,Computer Science,3,7.12,0,55.4
+S1419,Student 419,MECH,3,8.0,1,72.5
+S1420,Student 420,Computer Science,2,6.82,2,71.6
+S1421,Student 421,CIVIL,4,5.45,2,56.4
+S1422,Student 422,ECE,1,6.06,1,64.5
+S1423,Student 423,ECE,2,4.7,3,36.8
+S1424,Student 424,cse ,4,5.6,0,55.2
+S1425,Student 425,IT,4,6.9,0,61.6
+S1426,Student 426,IT,2,7.79,0,72.1
+S1427,Student 427,IT,3,9.16,1,77.9
+S1428,Student 428,Computer Science,1,4.93,2,41.3
+S1429,Student 429,ECE,1,7.33,1,63.6
+S1430,Student 430,IT,2,5.45,3,54.0
+S1431,Student 431,MECH,4,7.55,2,73.5
+S1432,Student 432,Computer Science,3,6.98,1,66.5
+S1433,Student 433,Computer Science,2,4.91,3,39.9
+S1434,Student 434,ECE,2,8.1,2,72.8
+S1435,Student 435,it ,1,6.19,1,53.4
+S1436,Student 436,Computer Science,2,5.76,3,55.3
+S1437,Student 437,IT,1,5.38,2,54.7
+S1438,Student 438,CIVIL,1,6.23,2,63.2
+S1439,Student 439,it ,3,7.62,1,66.8
+S1440,Student 440,IT,1,6.62,1,46.9
+S1441,Student 441,ECE,1,7.49,0,60.7
+S1442,Student 442,IT,3,7.42,1,75.4
+S1443,Student 443,Computer Science,2,8.88,1,80.6
+S1444,Student 444,ECE,2,6.44,1,55.3
+S1445,Student 445,ECE,1,4.77,3,51.1
+S1446,Student 446,Computer Science,1,8.29,0,82.5
+S1447,Student 447,Computer Science,2,5.49,1,46.4
+S1448,Student 448,Computer Science,3,8.36,1,75.4
+S1449,Student 449,Computer Science,2,6.2,1,51.3
+S1450,Student 450,ece ,3,6.11,3,54.7
+S1451,Student 451,Computer Science,3,7.39,1,76.0
+S1452,Student 452,Computer Science,2,9.48,0,89.4
+S1453,Student 453,it ,2,9.15,0,85.9
+S1454,Student 454,Computer Science,2,6.68,2,65.8
+S1455,Student 455,Computer Science,1,7.42,1,63.6
+S1456,Student 456,Computer Science,3,8.05,0,76.8
+S1457,Student 457,Computer Science,3,6.37,3,59.4
+S1458,Student 458,MECH,2,7.23,0,53.4
+S1459,Student 459,IT,2,6.89,1,52.7
+S1460,Student 460,CIVIL,2,7.69,1,67.1
+S1461,Student 461,MECH,3,5.76,3,55.2
+S1462,Student 462,Computer Science,4,4.43,2,39.5
+S1463,Student 463,CIVIL,1,4.07,2,37.6
+S1464,Student 464,Computer Science,2,5.34,1,58.2
+S1465,Student 465,civil ,1,5.79,1,44.7
+S1466,Student 466,MECH,2,6.34,0,57.3
+S1467,Student 467,IT,1,9.1,0,83.8
+S1468,Student 468,ece ,2,8.52,0,75.3
+S1469,Student 469,CIVIL,2,5.56,2,50.7
+S1470,Student 470,MECH,2,7.17,0,57.0
+S1471,Student 471,MECH,2,6.24,1,63.7
+S1472,Student 472,IT,4,6.5,3,56.1
+S1473,Student 473,CIVIL,4,7.23,2,76.8
+S1474,Student 474,MECH,1,7.31,1,65.3
+S1475,Student 475,MECH,2,6.05,1,58.9
+S1476,Student 476,CIVIL,4,8.51,0,78.9
+S1477,Student 477,ECE,3,5.19,3,46.5
+S1478,Student 478,Computer Science,1,6.38,2,53.5
+S1479,Student 479,MECH,3,10.0,0,95.5
+S1480,Student 480,Computer Science,1,7.23,1,68.1
+S1481,Student 481,Computer Science,1,8.2,0,69.2
+S1482,Student 482,mech ,3,6.99,1,63.4
+S1483,Student 483,CIVIL,3,7.78,1,68.9
+S1484,Student 484,civil ,4,,1,74.3
+S1485,Student 485,ECE,2,6.77,3,62.0
+S1486,Student 486,MECH,4,5.37,1,54.8
+S1487,Student 487,Computer Science,2,7.46,1,67.5
+S1488,Student 488,CIVIL,3,5.6,2,51.9
+S1489,Student 489,ECE,1,7.52,0,61.4
+S1490,Student 490,CIVIL,1,,0,76.3
+S1491,Student 491,it ,4,7.72,1,73.4
+S1492,Student 492,CIVIL,4,6.97,2,73.7
+S1493,Student 493,ece ,4,7.78,2,73.8
+S1494,Student 494,IT,2,6.37,2,64.8
+S1495,Student 495,CIVIL,1,8.12,1,77.8
+S1496,Student 496,CIVIL,4,4.65,3,51.2
+S1497,Student 497,IT,3,6.4,2,58.2
+S1498,Student 498,IT,1,4.25,3,50.6
+S1499,Student 499,cse ,4,5.1,4,44.9
